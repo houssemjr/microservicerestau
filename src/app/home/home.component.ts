@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
+import { DonationService } from '../donation.service';
+import { NgForm } from '@angular/forms';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -32,10 +34,11 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 export class HomeComponent implements OnInit {
 
   contentVisible = false;
-
+ 
   constructor() { }
 
   ngOnInit(): void {
+   
   }
   scrollTo(elementId: string): void {
     const element = document.getElementById(elementId);

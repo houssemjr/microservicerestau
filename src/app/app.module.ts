@@ -15,6 +15,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { DishComponent } from './backoffice/dish/dish.component';
 import { FormsModule } from '@angular/forms';
+import { TablesComponent } from './backoffice/Tables/tables.component';
+import { OrderComponent } from './backoffice/order/order.component';
+import { DonationComponent } from './donation/donation.component';
+import { DishFrontComponent } from './dish-front/dish-front.component';
+import { ForumComponent } from './forum/forum.component';
+import { DonnateComponent } from './donnate/donnate.component';
+import { ReserveComponent } from './reserve/reserve.component';
 
 
 @NgModule({
@@ -29,6 +36,13 @@ import { FormsModule } from '@angular/forms';
     ContactComponent,
     FooterComponent,
     DishComponent,
+    TablesComponent,
+    OrderComponent,
+    DonationComponent,
+    DishFrontComponent,
+    ForumComponent,
+    DonnateComponent,
+    ReserveComponent,
    
     
   ],

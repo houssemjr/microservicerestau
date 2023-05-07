@@ -33,7 +33,7 @@ export class DishComponent implements OnInit {
      }
      
    this.dishToUpdate = {
-      id:null,
+      idDish:null,
       name:null,
       type:null,
       description:null,
