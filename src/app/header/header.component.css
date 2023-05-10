@@ -40,4 +40,7 @@
     .tabs-content article.active {
       opacity: 1;
     }
-    
+    .yy{
+      height: 30px;
+      width: 30px;
+    }

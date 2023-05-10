@@ -30,4 +30,8 @@ export class OrderService {
   deleteDish(id: number): Observable<Object>{
     return this.http.delete(this.url+'/delete/'+id);
   }
+  getOrderByIdUser(id:number){
+    return this.http.get(this.url+'/getOrder/'+id);
+
+  }
 }

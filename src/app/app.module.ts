@@ -22,6 +22,9 @@ import { DishFrontComponent } from './dish-front/dish-front.component';
 import { ForumComponent } from './forum/forum.component';
 import { DonnateComponent } from './donnate/donnate.component';
 import { ReserveComponent } from './reserve/reserve.component';
+import { BarGraphComponent } from './backoffice/bar-graph/bar-graph.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
+import { PanierComponent } from './panier/panier.component';
 
 
 @NgModule({
@@ -43,6 +46,9 @@ import { ReserveComponent } from './reserve/reserve.component';
     ForumComponent,
     DonnateComponent,
     ReserveComponent,
+    BarGraphComponent,
+    PanierComponent,
+
    
     
   ],
@@ -51,7 +57,10 @@ import { ReserveComponent } from './reserve/reserve.component';
     AppRoutingModule,
     BrowserAnimationsModule,
      FormsModule,
-     HttpClientModule
+     HttpClientModule,
+     NgApexchartsModule,
+     
+     
     
   ],
   providers: [],
