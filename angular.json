@@ -37,7 +37,8 @@
               "src/assets/css/flex-slider.css",
               "node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css",
               "node_modules/admin-lte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css",
-              "node_modules/admin-lte/dist/css/adminlte.min.css"
+              "node_modules/admin-lte/dist/css/adminlte.min.css",
+              "node_modules/ngx-toastr/toastr.css" 
 
 
 
@@ -130,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "templatefinal"
+  "defaultProject": "templatefinal",
+  "cli": {
+    "analytics": "523c6dd4-fb83-4cb7-a266-be9a356a0fe0"
+  }
 }

@@ -46,7 +46,7 @@
             </div>
           </div>
         <div class="form-group">
-          <input type="submit" value="Register" class="btn btn-primary w-100">
+          <input type="submit"[disabled]="registerForm.invalid" value="Register" class="btn btn-primary w-100">
         </div>
       </form>
     </div>
@@ -135,8 +135,8 @@
                 </div>
               </div>
               <div class="form-group">
-                <input type="submit" value="Update"data-bs-dismiss="modal" class="btn btn-primary">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                <input type="submit" [disabled]="updateForm.invalid" value="Update"data-bs-dismiss="modal" class="btn btn-primary">
+                <button type="button"  class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
               </div>
           </form>
         </div>

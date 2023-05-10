@@ -13,6 +13,8 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
+import { ToastrModule } from 'ngx-toastr';
 import { DishComponent } from './backoffice/dish/dish.component';
 import { FormsModule } from '@angular/forms';
 import { TablesComponent } from './backoffice/Tables/tables.component';
@@ -59,6 +61,8 @@ import { PanierComponent } from './panier/panier.component';
      FormsModule,
      HttpClientModule,
      NgApexchartsModule,
+     ToastrModule.forRoot()
+     
      
      
     

@@ -46,6 +46,9 @@ export class DishService {
   getMenu2():any{
     return this.http.get<any[]>(this.url+'/countMenu2');
   }
+  getNbCalorieParPlat(id:number):any{
+    return this.http.get<any[]>(this.url+'/getNbCalorie/'+id);
+  }
 
  
 }
