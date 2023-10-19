@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { OAuthService } from 'angular-oauth2-oidc';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   contentVisible = false;
-  constructor() { }
+  name : string ='';
+  id:any;
+  userId: string='';
+  constructor(private oauthService: OAuthService) { }
 
   ngOnInit(): void {
   }

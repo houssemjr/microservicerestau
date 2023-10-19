@@ -27,6 +27,7 @@ import { ReserveComponent } from './reserve/reserve.component';
 import { BarGraphComponent } from './backoffice/bar-graph/bar-graph.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { PanierComponent } from './panier/panier.component';
+import { OAuthModule } from 'angular-oauth2-oidc';
 
 
 @NgModule({
@@ -61,7 +62,8 @@ import { PanierComponent } from './panier/panier.component';
      FormsModule,
      HttpClientModule,
      NgApexchartsModule,
-     ToastrModule.forRoot()
+     ToastrModule.forRoot(),
+     OAuthModule.forRoot(), 
      
      
      
